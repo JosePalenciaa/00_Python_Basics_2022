@@ -1,5 +1,5 @@
 # Asl the user for their name
-username = input ("Onamae wa nan desu ka?")
+username = input ("What is your name?")
 
 # Ask the user for their favourite integer
-fav_num = int(input("Sukina bango wa nana desu ka?"))
+fav_num = int(input("What is your favourite integer?"))
