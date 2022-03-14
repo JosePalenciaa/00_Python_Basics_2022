@@ -1,8 +1,8 @@
 # Ask the user for their name
-username = input ("Hello user, what is your name?")
+username = input ("Hello user, what is your name? ")
 
 # Ask the user for their favourite integer
-fav_num = int(input("What is your favourite integer?"))
+fav_num = int(input("What is your favourite integer? "))
 
 # Double, halve and square the number
 double = fav_num * 2
@@ -17,3 +17,6 @@ print("Hello {}, your favourite number is {}".format(username, fav_num))
 print("The double {} is {}". format(fav_num, double))
 print("Half of {} is {}". format(fav_num, half))
 print("{} squared is {}". format(fav_num, squared))
+
+# Farewell the user
+print("Goodbye {}".format(username))
