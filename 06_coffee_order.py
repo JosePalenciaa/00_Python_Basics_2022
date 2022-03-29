@@ -4,12 +4,15 @@ print("~~~ Coffee Order Demo ~~~")
 keep_going = ""
 while keep_going =="":
 
-    want_coffee = input("Would you like coffee? ")
+    print()
+    want_coffee = input("Would you like coffee? ").lower()
     if want_coffee != "yes":
+        print()
         print("WRONG!, you always want coffee.")
         continue
 
     else:
+        print()
         print("Good Choice!")
         break
 
